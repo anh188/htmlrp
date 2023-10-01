@@ -1,14 +1,1 @@
-.image-container {
-    position: relative; /* Đặt vị trí của container để chứa hình ảnh và văn bản */
-    width: 200px; /* Đặt kích thước của container */
-}
 
-.text-overlay {
-    position: absolute; /* Đặt vị trí tuyệt đối để đặt văn bản lên hình ảnh */
-    top: 50%; /* Đặt vị trí theo chiều dọc là 50% của container */
-    left: 50%; /* Đặt vị trí theo chiều ngang là 50% của container */
-    transform: translate(-50%, -50%); /* Dịch chuyển văn bản để căn giữa hình ảnh */
-    background: rgba(255, 255, 255, 0.7); /* Màu nền cho văn bản */
-    padding: 5px; /* Khoảng cách giữa văn bản và hình ảnh */
-    border: 1px solid #000; /* Đường viền cho văn bản */
-}
